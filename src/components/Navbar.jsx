@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 // import { useState } from "react";
-import { SiTodoist } from "react-icons/si";
+import { PiScrollFill } from "react-icons/pi";
 import { FaPlus } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import "../App.css";
@@ -12,17 +12,16 @@ function Navbar(props) {
   return (
     <div className="absolute top-0  left-0 bg-slate-950/70 w-screen h-16 z-20">
       <div className="m-auto w-4/5 md:w-screen h-full flex items-center justify-between md:px-36  ">
-        <div className="logo flex md:w-1/2  w-1/2 justify-start ">
+        <div className="logo flex w-3/4 justify-start ">
           <button className='flex gap-4 outline-0' >
 
           <IconContext.Provider
             value={{ color: "#fff", size: "2rem" }}
             className="cursor-pointer"
-            >
-            <SiTodoist />
+            ><PiScrollFill />
           </IconContext.Provider>
           <div className="cursor-pointer">
-            <h2 className="text-2xl text-white">Mak Todos</h2>
+            <h2 className="text-2xl text-white text-nowrap">Mak Todos</h2>
           </div>
             </button>
         </div>

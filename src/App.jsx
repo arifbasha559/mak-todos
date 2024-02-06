@@ -38,10 +38,10 @@ const App = () => {
 
   
   
-  let [inp,setInp]= useState("-translate-y-[200%]") ;
+  let [inp,setInp]= useState("-translate-y-[300%]") ;
   const inputa = () => {
-  if(inp !=="-translate-y-[200%]"){
-    setInp('-translate-y-[200%]')
+  if(inp !=="-translate-y-[300%]"){
+    setInp('-translate-y-[300%]')
   }
   else{
     setInp('translat')
